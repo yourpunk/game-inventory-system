@@ -30,16 +30,16 @@ A **relational database project** designed for managing in-game inventories, inc
 2. Set up the PostgreSQL database using the provided schema.
 3. (Optional) Run the backend with Spring Boot if you extend the project.
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 REST API Integration: Expose inventory management through an API.
 User Authentication: Secure player inventory access.
 UI for Management: Web interface for tracking and modifying inventory.
 Dockerized Deployment: Containerize the system for easier setup.
 
-📜 Notes
+## 📜 Notes
 This was developed as a university group project, but the repository is maintained for educational and portfolio purposes.
 
-👥 Contributors
-This project was developed as part of a university coursework in database systems. Special thanks to Aleksandra Soboleva and David Lukášek for their contributions.
+## 👥 Contributors
+This project was developed as part of a university coursework in database systems. Special thanks to **Aleksandra Soboleva** and **David Lukášek** for their contributions.
 
-📩 Feel free to reach out if you have any questions or suggestions!
+###📩 Feel free to reach out if you have any questions or suggestions!
