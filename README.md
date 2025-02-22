@@ -42,4 +42,4 @@ This was developed as a university group project, but the repository is maintain
 ## 👥 Contributors
 This project was developed as part of a university coursework in database systems. Special thanks to **Aleksandra Soboleva** and **David Lukášek** for their contributions.
 
-###📩 Feel free to reach out if you have any questions or suggestions!
+### 📩 Feel free to reach out if you have any questions or suggestions!
