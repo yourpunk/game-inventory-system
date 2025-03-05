@@ -11,6 +11,8 @@ A **relational database project** designed for managing in-game inventories, inc
 - **Market System** – NPC-based item purchases and sales.
 - **Equipment System** – items can be equipped in specific slots (head, body, hands, legs).
 
+📄 **[Full database model](docs/Game_Inventory_DB_Model.md)**
+
 ## 🛠️ Technologies Used
 - **PostgreSQL** – relational database management.
 - **SQL** – database schema design and queries.
