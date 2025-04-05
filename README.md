@@ -42,6 +42,6 @@ Dockerized Deployment: Containerize the system for easier setup.
 This was developed as a university group project, but the repository is maintained for educational and portfolio purposes.
 
 ## 👥 Contributors
-This project was developed as part of a university coursework in database systems. Special thanks to **Aleksandra Soboleva** and **David Lukášek** for their contributions.
+This project was developed as part of a university coursework in database systems. Special thanks to **Aleksandra Kenig** and **David Lukášek** for their contributions.
 
 ### 📩 Feel free to reach out if you have any questions or suggestions!
