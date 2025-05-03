@@ -35,7 +35,7 @@ A **database system** for managing player inventories, pets, item transactions a
 git clone https://github.com/yourpunk/game-inventory-system.git
 cd game-inventory-system
 ```
-1. Create a new **PostgreSQL** database (name it whatever you want, kitten).
+1. Create a new **PostgreSQL** database (name it whatever you want).
 2. Run `create_tables.sql` to summon your schema.
 3. Optionally insert test data via `insert_data.sql`
 4. Try out queries, triggers & views – live your best DB dev life.
