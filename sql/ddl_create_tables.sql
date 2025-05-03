@@ -1,4 +1,4 @@
--- Player table: stores players and their wealth
+- Player table: stores players and their wealth
 CREATE TABLE Player (
   nickname VARCHAR(50) PRIMARY KEY,
   login VARCHAR(50) UNIQUE NOT NULL,
