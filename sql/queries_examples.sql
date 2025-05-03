@@ -1,4 +1,4 @@
-- 01: Players' Pets (Level 17+)
+-- 01: Players' Pets (Level 17+)
 SELECT p.nickname, pet.name
 FROM Player p
 JOIN Pet pet ON p.nickname = pet.player
