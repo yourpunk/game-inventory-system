@@ -1,4 +1,4 @@
- Relational Model
+# Relational Model
 ## 📋 Player
 | **Column**              | **Type**              | **Description**     |
 |-------------------|---------------------|---------------|
