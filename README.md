@@ -1,47 +1,52 @@
-# 🎮 Game Inventory Management System
+# 🐉📦 RPG Inventory Management System
 
-A **relational database project** designed for managing in-game inventories, including item ownership, durability, transactions, and crafting mechanics. This system is built for RPGs, survival games, and multiplayer environments where players interact with items dynamically.
+<img src="https://github.com/user-attachments/assets/12f47865-8b5a-4890-916f-8b040040559d" align="right" width="128">
 
-## 📌 Features
-- **Player Inventory System** – each player has a dedicated inventory.
-- **Item Management** – track items with attributes like rarity, type, and durability.
-- **Item Instances** – manage unique items with individual properties.
-- **Trading System** – track transactions between players.
-- **Crafting System** – create new items from predefined materials.
-- **Market System** – NPC-based item purchases and sales.
-- **Equipment System** – items can be equipped in specific slots (head, body, hands, legs).
+A **database system** for managing player inventories, pets, item transactions and magical item crafting — all wrapped in a fantasy-themed RPG world.
 
-📄 **[Full database model](docs/Game_Inventory_DB_Model.md)**
+>Originally created as a school project, but it accidentally became a *functional and well-designed relational database*.<br> Whoops. ⸜(｡˃ ᵕ ˂)⸝♡
 
-## 🛠️ Technologies Used
-- **PostgreSQL** – relational database management.
-- **SQL** – database schema design and queries.
-- **JPA (Java Persistence API)** – backend integration (optional future enhancement).
-- **ERD Diagram** – conceptual model designed with `ER Dia`.
+## ⚔️ Features
 
-## 🛠️ Setup & Usage
-### 📌 Requirements:
-- **PostgreSQL** installed
-- SQL client (e.g., `pgAdmin` or `DBeaver`)
+- 👥 **Player & pet management** - because dragons are friends, not items
+- 🪙 **Gold Transactions** – buying, selling, and no overdrafts
+- 🧪 **Item combination mechanics** (yes, you can craft a sword of doom)
+- 📊 **Views, Triggers, Constraints**
+- 📄 **Structured SQL schema** – full DDL & DML scripts ready to launch
+  
+<!-- TODO: 🔗 **[ERD + Relational Model](docs/Game_Inventory_DB_Model.md)**  *
+🧪 Test cases, queries & sample data included. -->
 
-## 🚀 How to Run
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourpunk/game-inventory-system.git
-   cd game-inventory-system
-2. Set up the PostgreSQL database using the provided schema.
-3. (Optional) Run the backend with Spring Boot if you extend the project.
+## 🛠️ Tech Stack
 
-## 📌 Future Enhancements
-REST API Integration: Expose inventory management through an API.
-User Authentication: Secure player inventory access.
-UI for Management: Web interface for tracking and modifying inventory.
-Dockerized Deployment: Containerize the system for easier setup.
+- 🐘 **PostgreSQL** 
+- 💾 **SQL** 
+- 🌱 **JPA (Java Spring)** – coming soon, once we tame the backend
+- 🧠 **ERD Tool** – because we like our relationships visualized
 
-## 📜 Notes
-This was developed as a university group project, but the repository is maintained for educational and portfolio purposes.
+## 🚀 How to Run This Beast
 
-## 👥 Contributors
-This project was developed as part of a university coursework in database systems. Special thanks to **Aleksandra Kenig** and **David Lukášek** for their contributions.
+### 🧃 Requirements:
+- PostgreSQL (installed and running)
+- Your fave SQL client (`pgAdmin`, `DBeaver`, `psql`, whatever works)
 
-### 📩 Feel free to reach out if you have any questions or suggestions!
+### 🪄 Steps:
+```bash
+git clone https://github.com/yourpunk/game-inventory-system.git
+cd game-inventory-system
+```
+1. Create a new **PostgreSQL** database (name it whatever you want, kitten).
+2. Run `create_tables.sql` to summon your schema.
+3. Optionally insert test data via `insert_data.sql`
+4. Try out queries, triggers & views – live your best DB dev life.
+
+## 🧠 Future Plans (aka side quests)
+- 🌐 **REST API** – Spring Boot interface for external use
+- 🛡️ **Auth Layer** – limit access to player inventory by login
+- 🎨 **Frontend** – React? JavaFX? Who knows. But it’ll look hot
+- 🐳 **Docker Support** – one-command setup for lazy legends
+
+## 👤 Author
+🚀 Crafted by **Aleksandra Kenig** (aka [yourpunk](https://github.com/yourpunk)) and **[David Lukášek](https://www.linkedin.com/in/david-ddi-luk%C3%A1%C5%A1ek-10ab30343/)**.
+
+💌 Wanna collab or throw some feedback? You know where to find me.
