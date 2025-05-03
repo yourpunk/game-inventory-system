@@ -37,8 +37,35 @@ cd game-inventory-system
 ```
 1. Create a new **PostgreSQL** database (name it whatever you want).
 2. Run `create_tables.sql` to summon your schema.
-3. Optionally insert test data via `insert_data.sql`
+3. Optionally insert test data via [`insert_data.sql`](#option-1-manual-insertion-vanilla-sql) or [`generate_data.py`](#option-2-python-generator)
 4. Try out queries, triggers & views – live your best DB dev life.
+
+### 🧙‍♀️ Data Generation Options
+
+You’ve got **two ways** to populate this fantasy realm with life:
+
+#### 🧾 Option 1: Manual Insertion (vanilla SQL)
+
+  Use the included SQL script:
+
+```bash
+psql -U youruser -d yourdb -f sql/dml_insert_data.sql
+```
+
+#### 🐍 Option 2: Python Generator
+
+  Feeling chaotic? Run my *data generator* for 20 players + 32,000 extra transactions:
+
+```bash
+cd sql/
+python generate_data.py
+```
+  This will produce `data.sql`, which you can then import:
+
+```bash
+psql -U youruser -d yourdb -f data.sql
+```
+>🪄 **Warning**: this may take a while.<br> Dwarves are typing furiously behind the scenes.
 
 ## 🧠 Future Plans (aka side quests)
 - 🌐 **REST API** – Spring Boot interface for external use
